@@ -9,6 +9,7 @@ module.exports = {
 		filename: "bundel.js"
 	},
 	devServer: {
+		historyApiFallback: true,
 		port: 9000
 	},
 	module: {
